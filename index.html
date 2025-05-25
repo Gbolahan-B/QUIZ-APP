@@ -1,0 +1,53 @@
+<!--This entire was written by Gbolahan Bantefa. All right reserved-->
+<!--Past questions from Babcock university use of library-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Gbolahan Bantefa">
+    <title>Quiz App -Gbolahan Bantefa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <div id="quiz-container" class="quiz-container">
+        <h1 class="app-header">Quiz App by Gbolahan</h1>
+        <div id="progress-bar-container" class="progress-bar-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <div id="question-container">
+            <p id="question-text" class="question-text">Loading question...</p>
+            <div id="answer-buttons" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            </div>
+        </div>
+        <div id="feedback-container" class="mt-6">
+            <p id="feedback-text" class="feedback-text"></p>
+        </div>
+        <div id="navigation-container" class="mt-8 flex justify-between items-center">
+            <p id="score-text" class="score-text">Score: 0 / 0</p>
+            <button id="next-btn" class="next-btn">Next</button>
+        </div>
+        <div id="results-container" class="hidden final-score-container mt-10">
+            <p id="final-score-text" class="final-score-text">Your final score is:</p>
+            <p id="final-percentage-text" class="text-3xl font-bold mb-6"></p>
+            <button id="restart-btn" class="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+<footer id="main-footer">
+    <div class="container">
+        <p>&copy; <span id="current-year">2025</span> Gbolahan Bantefa. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</html>
