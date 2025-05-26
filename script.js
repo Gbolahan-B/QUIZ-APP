@@ -358,7 +358,7 @@ const originalQuizData = [
             if (quizData.length > currentQuestionIndex + 1) {
                 nextButton.textContent = ' Next ';
             } else {
-                nextButton.textContent = '';
+                nextButton.textContent = 'Results';
             }
         }
         
